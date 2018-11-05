@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+figure{
+	display: inline-block;
+}
+.content{
+	margin: 15px
+}
+.article_description{
+	display: inline-block;
+	position: absolute;
+	color: white;
+}
+
+.description{
+	display: block;
+}
+
+@media screen and (max-width: 640px) {
+
+	
+
+}
+
+.description{
+	background-size: 100%;
+	background-image: url("./img/movie1.jpg");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
