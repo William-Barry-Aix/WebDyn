@@ -38,10 +38,10 @@ include 'View.php';
 		</article>
 	</section>
 	<footer>
-		<h5>Barry William</h5>
 	</footer>
 				<?php getBlock('infos');?>
 				<?php getBlock('images');?>
+			<?php getBlock('footer');?>
 	</main>
 </body>
 </html>
