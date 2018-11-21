@@ -7,12 +7,9 @@
 </head>
 <body>
 	<header>
-	</header>
-	<main>
-	<section>
 		<article class="description">
-			<figure>
-				<img src="./public/img/movie.jpg" alt="La Forme de l'eau" />
+			<figure class="headImage">
+				<img class="headImage" src="./public/img/movie.jpg" alt="La Forme de l'eau" />
 			</figure>
 			<div class="article_description">
 				<h1>La Forme de l'eau </h1>
@@ -21,6 +18,10 @@
 				<meter min="0" max="5" value="4"/>
 			</div>
 		</article>
+	</header>
+	<main>
+	<section>
+		
 		
 		<article class="content">
 			<article class="real_infos">

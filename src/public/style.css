@@ -4,6 +4,9 @@ body {
 figure{
 	display: inline-block;
 }
+figure.headImage {
+	
+}
 .content{
 	margin: 15px
 }
@@ -21,6 +24,10 @@ figure{
 
 	
 
+}
+
+.headImage {
+    width: 150px;
 }
 
 .description{
