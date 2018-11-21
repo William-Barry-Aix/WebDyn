@@ -13,19 +13,21 @@ include 'View.php';
 		<?php getBlock('header');?>
 	</header>
 	<main>
-	<section>
 		
 		
 
 		
-		</article>
-	</section>
-	<footer>
-	</footer>
+		<section>
+			<article class="content">
 				<?php getBlock('infos');?>
 				<?php getBlock('personsInfos'); ?>
 				<?php getBlock('images');?>
+			</article>
+		</section>
+	
+		<footer>
 			<?php getBlock('footer');?>
+		</footer>
 	</main>
 </body>
 </html>
