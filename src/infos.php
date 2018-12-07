@@ -1,7 +1,7 @@
-<article class="content">
+
 	<article class="real_infos">
 	<p>Film de <a href="./director.html">Guillermo del Toro</a></p>					
-</article>
+	</article>
 <article class="synopsis">
 	<h2>Synopsis</h2>
 	<p>Modeste employée d’un laboratoire gouvernemental ultrasecret, Elisa mène une existence solitaire, d’autant plus isolée qu’elle est muette. Sa vie bascule à jamais lorsqu’elle et sa collègue Zelda découvrent une expérience encore plus secrète que les autres…</p>

@@ -1,6 +1,6 @@
 <article class="description">
 	<figure class="headImage">
-		<img class="headImage" src="./public/img/movie.jpg" alt="La Forme de l'eau" />
+		<img class="headImage" src="./public/img/movies/La_Forme_de_l_eau/posters/1.jpg" alt="La Forme de l'eau" />
 	</figure>
 	<div class="article_description">
 		<h1>La Forme de l'eau </h1>
