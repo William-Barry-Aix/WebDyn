@@ -1,4 +1,3 @@
-<?php include 'View.php'; ?>
 <!DOCTYPE html>
 <html lang = "fr">
 <head>
@@ -8,18 +7,18 @@
 </head>
 <body>
 	<header>
-		<?php getBlock('header');?>
+		<?php $this->getBlock('header');?>
 	</header>
 	<main>
 		<section>
 			<article class="content">
-				<?php getBlock('infos');?>
-				<?php getBlock('personsInfos'); ?>
-				<?php getBlock('images');?>
+				<?php $this->getBlock('infos');?>
+				<?php $this->getBlock('personsInfos'); ?>
+				<?php $this->getBlock('images');?>
 			</article>
 		</section>	
 		<footer>
-			<?php getBlock('footer');?>
+			<?php $this->getBlock('footer');?>
 		</footer>
 	</main>
 </body>

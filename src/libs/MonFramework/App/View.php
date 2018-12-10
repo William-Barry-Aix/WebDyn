@@ -2,6 +2,15 @@
 namespace MonFramework\App;
 
 class View {
+	public $data;
+	public function __construct($path, $data = []){
+		$this->data = array();
+		foreach ($data as $key => $value) {
+			$this->data[$key] = $value;
+			$this->$key = $value;
+		}
+		include $path;
+	}
 	public function getBlock($file, $data = [])
 	{
 		require $file . '.php';
