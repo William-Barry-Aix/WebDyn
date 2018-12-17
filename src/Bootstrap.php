@@ -1,5 +1,5 @@
 <?php
-class Bootstrap
+/*class Bootstrap
 {
     public static function autoload($className)
     {
@@ -10,3 +10,4 @@ class Bootstrap
         require $path;
     }
 }
+*/

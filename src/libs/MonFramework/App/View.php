@@ -18,4 +18,7 @@ class View {
 	public function method() {
         var_dump(__NAMESPACE__ . ' \ ' . __CLASS__ . ' \ ' . __FUNCTION__);
     }
+    public function getImage($path){
+    	return '/public/img' . $path;
+    }
 }

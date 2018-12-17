@@ -1,7 +1,7 @@
 <?php
 namespace MonFramework\App;
       
-use Application\RouteMap;
+use App\controller\RouteMap;
       
 class Url{
 	private static function getCurrentUri()
@@ -16,12 +16,7 @@ class Url{
 		$base_url = Url::getCurrentUri();
 		$routes = array();
 		$routes = explode('/', $base_url);
-
-		foreach($routes as $route)
-		{
-		    if(trim($route) != '')
-		        array_push($routes, $route);
-		}
+		$route[0] = '/';
 
 		RouteMap::map($routes);
 	}

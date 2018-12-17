@@ -1,9 +1,11 @@
 <aside class="images">
 	<h2>Images</h2>
+	<?php foreach ($data['gallery'] as $id => $picture): ?>
+	<?php if(strpos($picture['path'], 'small')):?>
 	<figure>
-		<img src="./public/img/movie1.jpg" alt="movie_photo_1" />
+		<img src="<?= $this->getImage($picture['path']) ?>" alt="<?= $picture['legend'] ?>" />
 	</figure>
-	<figure>
-		<img src="./public/img/movie2.jpg" alt="" />
-	</figure>
+	<?php endif; ?>
+	<?php endforeach; ?>
+	
 </aside>
